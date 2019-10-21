@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\format.cc" />
+    <ClCompile Include="src\ini.cpp" />
+    <ClCompile Include="src\maths.cpp" />
+    <ClCompile Include="src\paramparser.cpp" />
+    <ClCompile Include="src\time.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\console.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\consoleimpl.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\baseapp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\os\time.h" />
+    <ClInclude Include="include\2dgeo.h" />
+    <ClInclude Include="include\bench.h" />
+    <ClInclude Include="include\concurrency.h" />
+    <ClInclude Include="include\fixedpoint.h" />
+    <ClInclude Include="include\format.h" />
+    <ClInclude Include="include\data\ini.h" />
+    <ClInclude Include="include\data\json.h" />
+    <ClInclude Include="include\detail\json.h" />
+    <ClInclude Include="include\maths.h" />
+    <ClInclude Include="include\net\packet.h" />
+    <ClInclude Include="include\os\paramparser.h" />
+    <ClInclude Include="include\data\serializer.h" />
+    <ClInclude Include="include\stlx.h" />
+    <ClInclude Include="include\stlxtypes.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="include\os\winconsole\alignedmemoryalloc.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="include\os\winconsole\consoleimpl.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="include\os\winconsole\console.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="include\baseapp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="console">
+      <UniqueIdentifier>{fcbf9780-7dea-4ed5-a36f-4c733077dcd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
